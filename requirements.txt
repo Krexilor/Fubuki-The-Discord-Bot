@@ -1,0 +1,16 @@
+# ==========================================
+# DISCORD BOT REQUIREMENTS
+# ==========================================
+
+# ----- Core Discord -----
+nextcord == 3.1.1
+
+# ----- Environment & Configuration -----
+python-dotenv == 1.2.1
+PyYAML == 6.0.3
+
+# ----- Logging -----
+colorama == 0.4.6
+
+# ----- Images -----
+pillow == 12.1.0

@@ -1,0 +1,29 @@
+# ==========================================
+# DISCORD BOT CONFIGURATION
+# ==========================================
+
+# ----- Bot Settings -----
+bot:
+  status: "online"                                         # online, idle, dnd, invisible
+  activity_type: "playing"                                 # playing, watching, listening, streaming, competing
+  activity_name: "with slash commands"
+  streaming_url: "Nothing"                                 # Required if activity_type is streaming
+  
+  owner_ids: [                                             # List of Discord user IDs with owner privileges
+    "YOUR_OWNER_ID_HERE",
+  ]
+
+  client_id: "YOUR_CLIENT_ID_HERE"                         # Bot's Discord client ID
+  
+# ----- Features -----
+features:
+  welcome_messages: true                                   # Should the bot send welcome messages when someone joins the server?
+  
+# ----- Intents -----
+intents:
+  guilds: true
+  members: true
+  messages: true
+  guild_messages: true
+  dm_messages: true
+  message_content: true                                    # Required for reading message content

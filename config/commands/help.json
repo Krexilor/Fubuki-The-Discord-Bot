@@ -1,0 +1,115 @@
+{
+    "Ping": {
+        "name": "ping",
+        "description": "Checks the bot’s current response time and verifies that it is online and responding correctly. Useful for diagnosing latency or connection issues.",
+        "usage": "/ping",
+        "restriction": "None",
+        "example": "/ping"
+    },
+    "BotInfo": {
+        "name": "botinfo",
+        "description": "Displays detailed information about the bot, including uptime, latency, server and member count, main features, and developer details.",
+        "usage": "/botinfo",
+        "restriction": "None",
+        "example": "/botinfo"
+    },
+    "ServerInfo": {
+        "name": "serverinfo",
+        "description": "Shows key information about the current server such as owner, member count, creation date, verification level, roles, channels, boosts, and more.",
+        "usage": "/serverinfo",
+        "restriction": "None",
+        "example": "/serverinfo"
+    },
+    "UserInfo": {
+        "name": "userinfo",
+        "description": "Provides detailed information about a selected user, including account creation date, server join date, roles, status, and highest role.",
+        "usage": "/userinfo [user]",
+        "restriction": "None",
+        "example": "/userinfo @Username"
+    },
+    "Invite": {
+        "name": "invite",
+        "description": "Generates an official invite link that allows you to add the bot to other servers with the required permissions.",
+        "usage": "/invite",
+        "restriction": "None",
+        "example": "/invite"
+    },
+    "Purge": {
+        "name": "purge",
+        "description": "Quickly removes multiple recent messages from the current channel for moderation and cleanup purposes.",
+        "usage": "/purge [amount]",
+        "restriction": "Requires appropriate moderation permissions",
+        "example": "/purge amount(23)"
+    },
+
+    "Mock": {
+        "name": "mock",
+        "description": "Converts the provided text into alternating upper- and lower-case letters, creating a sarcastic or mocking style of text.",
+        "usage": "/mock [text]",
+        "restriction": "Maximum 500 characters",
+        "example": "/mock This command is fun"
+    },
+    "Reverse": {
+        "name": "reverse",
+        "description": "Reverses the order of characters in the provided text.",
+        "usage": "/reverse [text]",
+        "restriction": "Maximum 500 characters",
+        "example": "/reverse Hello World"
+    },
+    "Emojify": {
+        "name": "emojify",
+        "description": "Converts each letter and number in the provided text into its corresponding emoji representation.",
+        "usage": "/emojify [text]",
+        "restriction": "Result must fit within Discord’s message length limits",
+        "example": "/emojify Hello 123"
+    },
+    "Rate": {
+        "name": "rate",
+        "description": "Randomly rates a word, phrase, or object on a scale of 1 to 10. The same input will always receive the same rating.",
+        "usage": "/rate [text]",
+        "restriction": "Maximum 500 characters",
+        "example": "/rate Pineapple on pizza"
+    },
+    "Choose": {
+        "name": "choose",
+        "description": "Randomly selects one option from a list of user-provided choices.",
+        "usage": "/choose [choice1] [choice2] [choice3] [choice4] [choice5]",
+        "restriction": "At least 2 choices required, maximum of 5",
+        "example": "/choose Cats Dogs Birds"
+    },
+    "Ship": {
+        "name": "ship",
+        "description": "Calculates a fun compatibility percentage between two users based on several factors such as account age, join time, and shared roles.",
+        "usage": "/ship [user1] [user2]",
+        "restriction": "Users must be members of the server",
+        "example": "/ship @UserOne @UserTwo"
+    },
+    "Compliment": {
+        "name": "compliment",
+        "description": "Sends a random, positive compliment to the selected user. Compliments rotate to avoid repetition.",
+        "usage": "/compliment [user]",
+        "restriction": "None",
+        "example": "/compliment @Username"
+    },
+    "Insult": {
+        "name": "insult",
+        "description": "Sends a light-hearted, non-offensive insult to the selected user. Insults rotate to avoid repetition.",
+        "usage": "/insult [user]",
+        "restriction": "None",
+        "example": "/insult @Username"
+    },
+    "Avatar": {
+        "name": "avatar",
+        "description": "Sends user profile photo, optionally different image filters/effect can be applied.",
+        "usage": ["/avatar [user]", "/avatar [user] [effects]"],
+        "restriction": "None",
+        "example": ["/avatar @Username", "/avatar @Username Blur"]
+    },
+    "CoinFlip": {
+        "name": "coinfliip",
+        "description": "Flips a coin to get Heads or Tails.",
+        "usage": "/coinflip",
+        "restriction": "None",
+        "example": "/coinflip"
+    }
+}

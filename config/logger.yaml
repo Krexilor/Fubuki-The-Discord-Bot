@@ -1,0 +1,56 @@
+# ==========================================
+# LOGGER CONFIGURATION
+# ==========================================
+
+# ----- General Settings -----
+logger:
+  name: "bot"                                              # Logger name
+  log_dir: "logs"                                          # Directory for log files (relative to project root)
+
+# ----- Console Logging -----
+console:
+  enabled: true                                            # Enable console logging
+  level: "INFO"                                            # DEBUG, INFO, WARNING, ERROR, CRITICAL
+
+  # Color scheme for different log levels
+  colors:
+    debug: "cyan"
+    info: "green"
+    warning: "yellow"
+    error: "red"
+    critical: "red, bg_white"
+
+# ----- File Logging -----
+file:
+  enabled: true                                            # Enable file logging
+  level: "DEBUG"                                           # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  
+  # File rotation settings
+  rotation:
+    max_bytes: 10485760                                    # Maximum file size in bytes (10MB)
+    backup_count: 5                                        # Number of backup files to keep
+  
+  # Date format in log files
+  date_format: "%d-%m-%Y %H:%M:%S"                         # Timestamp format
+
+# ----- Log Format -----
+format:
+  console: "[%(asctime)s] | %(levelname)s | %(message)s"       # Console log format
+  file: "[%(asctime)s] | %(levelname)s | %(message)s"          # File log format
+  date_format: "%d-%m-%Y %H:%M:%S"                             # Date format for both
+
+# ----- Error Handling -----
+error_handling:
+  show_traceback_console: false                            # Show full traceback in console
+  show_traceback_file: true                                # Show full traceback in log files
+
+# ----- Advanced Settings -----
+advanced:
+  encoding: "utf-8"                                        # File encoding
+  propagate: false                                         # Propagate logs to parent loggers
+  
+  # Separate log files for different levels
+  separate_files:
+    enabled: true                                          # Create separate files for each level
+    error_file: "error.log"                                # Separate file for errors
+    warning_file: "warning.log"                            # Separate file for warnings

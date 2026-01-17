@@ -1,0 +1,21 @@
+# ==========================================
+# ROLES AND CHANNEL ID'S
+# ==========================================
+
+# ----- Role Id's -----
+Roles: 
+  Admin: [                                                 # List of all admin role id's
+    "YOUR_ADMIN_ROLE_ID_HERE"
+  ]
+
+  Mods: [                                                  # List of all moderator role id's
+    "YOUR_MOD_ROLE_ID_HERE"
+  ]
+
+  New_Member: [                                            # List of all roles which can be granted to new members when they join the server
+    "YOUR_NEW_MEMBER_ROLE_ID_HERE"
+  ]
+
+# ----- Channel Id's -----
+mod_logs: "YOUR_MOD_LOGS_CHANNEL_ID_HERE"                  # Channel to send Admin/Mod command usage
+welcome: "YOUR_WELCOME_CHANNEL_ID_HERE"                    # Channel to send the welcome message
