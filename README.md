@@ -344,11 +344,12 @@ For issues or questions:
 
 Built with:
 - [nextcord](https://github.com/nextcord/nextcord) - Discord API wrapper
-- [Pillow](https://python-pillow.org/) - Image processing
+- [Pillow](https://github.com/python-pillow/Pillow) - Image processing
 - [PyYAML](https://pyyaml.org/) - YAML configuration
 - [python-dotenv](https://github.com/theskumar/python-dotenv) - Environment management
 
 ---
 
 **Made with ❤️ by Krexilor**
+
 
