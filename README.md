@@ -1,4 +1,6 @@
-![Banner](https://github.com/Krexilor/Fubuki-The-Discord-Bot/blob/main/assets/profile/banner.png)
+<p align="center">
+  <img src=https://github.com/Krexilor/Fubuki-The-Discord-Bot/blob/main/assets/profile/banner.png>
+</p>
 
 # 🤖 Fubuki Discord Bot
 
@@ -349,3 +351,4 @@ Built with:
 ---
 
 **Made with ❤️ by Krexilor**
+
