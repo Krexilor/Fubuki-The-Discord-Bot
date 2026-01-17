@@ -47,7 +47,8 @@ class AssetsCheck:
             return False
         
         else:
-            self.logger.info("\nAll asset files validated successfully!")
+            self.logger.info(" ")
+            self.logger.info("All asset files validated successfully!")
             return True
     
     # --- Check if directory exists ---
