@@ -99,7 +99,7 @@ Fubuki/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yourusername/fubuki-bot.git
+git clone https://github.com/YourUserName/Fubuki-The-Discord-Bot.git
 cd fubuki-bot
 ```
 
@@ -351,5 +351,6 @@ Built with:
 ---
 
 **Made with ❤️ by Krexilor**
+
 
 
