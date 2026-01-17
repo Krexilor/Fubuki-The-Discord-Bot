@@ -61,7 +61,8 @@ class ConfigCheck:
             return False
         
         else:
-            self.logger.info("\nAll configuration files validated successfully!")
+            self.logger.info(" ")
+            self.logger.info("All configuration files validated successfully!")
             return True
     
     # --- Check if a file exists ---
